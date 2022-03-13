@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.content {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.842);
+  color: whitesmoke;
+  font-family: "Comfortaa", cursive;
+}
+
+/* left-side */
+
+.left-side {
+  margin: 1rem;
+  width: 40vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/pexels-brady-knoll-5409778.jpg);
+}
+
+.logo {
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  top: 30vh;
+  font-size: 2rem;
+  padding: 0.7rem;
+  background-color: rgba(0, 0, 0, 0.842);
+}
+
+/* right-side */
+.right-side {
+  margin: 1rem;
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  position: relative;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.8rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(49, 46, 46, 0.637);
+}
+
+.input-field {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  opacity: 50%;
+}
+
+.form-title {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.end {
+  /* background-color: rgba(0, 0, 0, 0.514); */
+}
+
+.btn {
+  padding: 1rem;
+  margin: 1rem;
+  color: greenyellow;
+  border: solid greenyellow 2px;
+  border-radius: 20px;
+  font-size: 2rem;
+  background-color: black;
+}
